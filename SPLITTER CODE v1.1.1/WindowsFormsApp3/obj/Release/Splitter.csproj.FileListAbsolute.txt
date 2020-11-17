@@ -1,0 +1,9 @@
+D:\SPLITTER\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Release\WindowsFormsApp3.Form1.resources
+D:\SPLITTER\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Release\WindowsFormsApp3.fourth.resources
+D:\SPLITTER\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Release\WindowsFormsApp3.main.resources
+D:\SPLITTER\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Release\Splitter.Properties.Resources.resources
+D:\SPLITTER\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Release\WindowsFormsApp3.second.resources
+D:\SPLITTER\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Release\WindowsFormsApp3.sidebar_uc.resources
+D:\SPLITTER\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Release\WindowsFormsApp3.third.resources
+D:\SPLITTER\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Release\Splitter.csproj.GenerateResource.cache
+D:\SPLITTER\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Release\Splitter.csproj.CoreCompileInputs.cache

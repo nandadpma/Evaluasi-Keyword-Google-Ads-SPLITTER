@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14F81FD6-5A0A-475A-B9FE-1B9FA5A9AF96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Splitter</RootNamespace>
+    <AssemblyName>Splitter</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>splitterico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AHP.cs" />
+    <Compile Include="controller.cs" />
+    <Compile Include="Dataset.cs" />
+    <Compile Include="FAHP.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fourth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="fourth.Designer.cs">
+      <DependentUpon>fourth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="second.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="second.Designer.cs">
+      <DependentUpon>second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sidebar_uc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sidebar_uc.Designer.cs">
+      <DependentUpon>sidebar_uc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="third.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="third.Designer.cs">
+      <DependentUpon>third.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fourth.resx">
+      <DependentUpon>fourth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="second.resx">
+      <DependentUpon>second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sidebar_uc.resx">
+      <DependentUpon>sidebar_uc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="third.resx">
+      <DependentUpon>third.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groupaanalysis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconkeyword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyword analysis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splitter10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splitterbg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotate splitterbg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotate 90  splitterbg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotate 270  splitterbg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-icon-19345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutorial find keyword1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutorial find keyword2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutorial find keyword3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyword analyze 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyword analyze 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutorial find keyword4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cr.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lc_biaya.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lc_ctr.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lc_klik.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lc_kriteria.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lc_pos.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lc_sk.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lc_tyg.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoP_biaya.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoP_CTR.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoP_klik.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoP_Kriteria.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoP_pos.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoP_sk.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoP_tyg.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Description.png" />
+    <None Include="Resources\DescriptionOFF.png" />
+    <None Include="Resources\DescriptionON.png" />
+    <None Include="Resources\Pimnas_190826_0074.jpg" />
+    <None Include="Resources\Pimnas_582x437.jpg" />
+    <None Include="Resources\Pimnas_757x437.jpg" />
+    <None Include="Resources\top2.jpg" />
+    <None Include="Resources\top3.jpg" />
+    <Content Include="splitterico.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,29 @@
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.main.resources
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.second.resources
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.third.resources
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.sidebar_uc.resources
+C:\Users\nanda\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.fourth.resources
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\bin\Debug\Splitter.exe.config
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\bin\Debug\Splitter.exe
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\bin\Debug\Splitter.pdb
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.fourth.resources
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.main.resources
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Debug\Splitter.Properties.Resources.resources
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.second.resources
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.sidebar_uc.resources
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.third.resources
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Debug\Splitter.exe
+D:\SPLITTER\SPLITTER v.1.0\SPLITTER CODE v1.1.1\WindowsFormsApp3\obj\Debug\Splitter.pdb

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp3", "WindowsFormsApp3\WindowsFormsApp3.csproj", "{14F81FD6-5A0A-475A-B9FE-1B9FA5A9AF96}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SPLITTERSetup", "SPLITTERSetup\SPLITTERSetup.vdproj", "{CAA7AE1E-BB6B-4DA6-AACE-86A1438672BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14F81FD6-5A0A-475A-B9FE-1B9FA5A9AF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F81FD6-5A0A-475A-B9FE-1B9FA5A9AF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F81FD6-5A0A-475A-B9FE-1B9FA5A9AF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F81FD6-5A0A-475A-B9FE-1B9FA5A9AF96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA7AE1E-BB6B-4DA6-AACE-86A1438672BC}.Debug|Any CPU.ActiveCfg = Debug
+		{CAA7AE1E-BB6B-4DA6-AACE-86A1438672BC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95393FFC-A2DE-44F3-8BC4-7DD595617C3A}
+	EndGlobalSection
+EndGlobal
